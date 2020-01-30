@@ -73,9 +73,9 @@ footer {
 }
 
 /* To make the site to be responsive */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 780, 375) {
     header {
-        width: auto;
+        width: 350px;
     }
     body {
         width: 450px;
@@ -84,5 +84,9 @@ footer {
     footer {
         width: 450px;
     }
+    .container {
+        width: fit-content;
+        height: fit-content;
+    }
 }
-    index.html: 980px, 768px, 640px
+ 
