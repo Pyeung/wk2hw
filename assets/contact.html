@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Portfolio</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,49 +18,53 @@
 <body>
     
     <header>
-    
-        <p class="right">
-            <a href="index.html" class="link1">About me</a>     |
-            <a href="contact.html" class="link1">Contact</a>    |           
-            <a href="portfolio.html" class="link1">Portfolio</a>
-        </p>
-
-        
-        <h1>Siuting Patrick Yeung</h1>
-
-        <hr />
+        <div class="row">
+            <div class="col s9"><h3>Siuting Patrick Yeung</h3></div>
+            <div class="col s1"><ul><a href="index.html" class="link1">About me</a></ul></div>
+            <div class="col s1"><ul><a href="contact.html" class="link1">Contact</a></ul></div>
+            <div class="col s1"><ul><a href="portfolio.html" class="link1">Portfolio</a></ul></div>
+            </div>
+        </div>
 
     </header>
 
     <div class="box">
-            <h2 class="center">Contact</h2>
+            <h4 class="center">Contact</h4>
     
-            <hr />
+            
     
     </div>
 
-    <form class="container">
-        First Name: <br />
-        <input type="text" id="firstName">
+    <div class="row">
+        <div class="col s3">
 
-        <br />
+        </div>
+        <div class="col s6">
+            <form class="container">
+                First Name: <br />
+                <input type="text" id="firstName">
+                
+                <br />
+                
+                Email:<br />
+                <input type="text" id="email">
+                <br />
+                
+                Message <br />
+                <textarea rows="10" cols="40" style="resize: none; height: 200px;">
+                    
+                </textarea>
+                <br /><br />
+                
+                <button class="btn">Submit</button>
+                
+            </form>
+        </div>
+        <div class="col s3">
 
-        Email:<br />
-        <input type="text" id="email">
-        <br />
-
-        Message <br />
-        <textarea rows="10" cols="40">
-
-
-        </textarea>
-        <br /><br />
-
-        <button class="btn">Submit</button>
-
-
-    </form>
-
+        </div>
+    </div>
+        
     <footer>
             
     </footer>
